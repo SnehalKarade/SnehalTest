@@ -29,6 +29,7 @@ driver.findElement(By.id("password")).sendKeys("admin");
 public void tearDown()
 {
 	driver.close();
+	System.out.println("Hello");
 }
 
 }
