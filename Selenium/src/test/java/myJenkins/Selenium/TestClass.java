@@ -30,7 +30,6 @@ public void tearDown()
 {
 	driver.close();
 	System.out.println("Hello");
-	System.out.println("hi");
 }
 
 }
