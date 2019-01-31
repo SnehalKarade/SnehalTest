@@ -47,6 +47,7 @@ WebElement mutiselect = driver.findElement(By.id("control_6"));
 	
 	objMultiselect.deselectAll();
     System.out.println("Hi");
+    System.out.println("Hello");
 }
 
 @AfterTest
