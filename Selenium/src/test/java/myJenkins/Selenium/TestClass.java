@@ -30,8 +30,6 @@ public void enterData()
 WebElement mutiselect = driver.findElement(By.id("control_6"));
 	
 	Select objMultiselect = new Select(mutiselect);
-	System.out.println("hi");
-	System.out.println("hello");
 	
 	objMultiselect.selectByIndex(1);
 	objMultiselect.selectByValue("option_3");
@@ -48,7 +46,7 @@ WebElement mutiselect = driver.findElement(By.id("control_6"));
 	}
 	
 	objMultiselect.deselectAll();
-	System.out.println("Neha");
+    System.out.println("Hi");
 }
 
 @AfterTest
