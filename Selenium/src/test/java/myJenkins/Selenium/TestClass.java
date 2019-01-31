@@ -48,6 +48,7 @@ WebElement mutiselect = driver.findElement(By.id("control_6"));
 	}
 	
 	objMultiselect.deselectAll();
+	System.out.println("Neha");
 }
 
 @AfterTest
